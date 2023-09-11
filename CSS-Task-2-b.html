@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+  border: 1px solid #000; 
+  width: 500px;
+}
+
+li {
+  float: left; 
+  border-right: 1px solid #000;
+}
+
+li:last-child {
+  border-right: 1px solid #000; 
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+li a[href="#Java"],
+li a[href="#HTML"],
+li a[href="#CSS"] {
+  color: blue;
+}
+
+li a.active {
+  background-color: grey;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Horizontal Navigation Bar</h2>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#Java">Java</a></li>
+  <li><a href="#HTML">HTML</a></li>
+  <li><a href="#CSS">CSS</a></li>
+</ul>
+
+</body>
+</html>

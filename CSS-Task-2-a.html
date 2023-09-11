@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 9px;
+  padding: 0px;
+  width: 200px;
+  background-color: skyblue;
+  border: 1px none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: orange;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+.all{
+  border: 2px solid black;
+  width: 220px;
+}
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+<div class="all">
+  <br>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#Java">Java</a></li>
+  <li><a href="#CSS">CSS</a></li>
+  <li><a href="#HTML">HTML</a></li>  
+  <li><a href="#Bootstarp">Bootstarp</a></li>
+</ul>
+<br>
+</div>
+
+</body>
+</html>
